@@ -1,0 +1,45 @@
+--- /usr/share/lipstick-jolla-home-qt5/launcher/Launcher.qml	2017-07-08 19:17:32.552681139 +0200
++++ /usr/share/lipstick-jolla-home-qt5/launcher/Launcher.qml	2017-07-08 19:24:10.469550420 +0200
+@@ -90,12 +90,12 @@
+         }
+     }
+ 
+-    Image {
++/*    Image {
+         parent: launcherPager.contentItem
+         y: launcherPager.originY
+         anchors.horizontalCenter: parent.horizontalCenter
+         source: "image://theme/graphic-edge-swipe-handle-bottom"
+-    }
++    } */
+ 
+     MouseArea {
+         objectName: "Launcher"
+
+--- /usr/share/lipstick-jolla-home-qt5/launcher/LauncherEdgeIndicator.qml	2017-07-08 19:23:33.639718021 +0200
++++ /usr/share/lipstick-jolla-home-qt5/launcher/LauncherEdgeIndicator.qml	2017-07-08 19:23:17.256427536 +0200
+@@ -13,7 +13,7 @@
+     property bool exposed
+     property bool animate: true
+ 
+-    source: "image://theme/graphic-edge-swipe-handle-top"
++  //  source: "image://theme/graphic-edge-swipe-handle-top"
+ 
+     anchors.horizontalCenter: parent.horizontalCenter
+     y: offset - height
+
+--- /usr/share/lipstick-jolla-home-qt5/launcher/LauncherFolder.qml	2017-07-08 19:39:35.119918789 +0200
++++ /usr/share/lipstick-jolla-home-qt5/launcher/LauncherFolder.qml	2017-07-08 19:39:56.730042145 +0200
+@@ -106,10 +106,10 @@
+                 GradientStop { position: 1.0; color: Theme.rgba(Theme.primaryColor, 0.15) }
+             }
+ 
+-            Image {
++/*            Image {
+                 anchors.horizontalCenter: parent.horizontalCenter
+                 source: "image://theme/graphic-edge-swipe-handle-bottom"
+-            }
++            } */
+ 
+             MouseArea {
+                 id: icon
