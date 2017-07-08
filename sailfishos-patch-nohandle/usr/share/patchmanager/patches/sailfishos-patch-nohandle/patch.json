@@ -1,6 +1,6 @@
 {
     "name": "No handle",
-    "description": "Removes the handle for the home screen and the launcher.",
+    "description": "Removes the handle from the home screen and the launcher.",
     "category": "homescreen",
     "infos": {
         "maintainer": "fravaccaro"

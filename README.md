@@ -1,4 +1,4 @@
-Sailfish OS patch: no handle on home
+Sailfish OS patch: No handle
 ===================
 
-Removes the handle for the home screen and the launcher.
+Removes the handle from the home screen and the launcher.

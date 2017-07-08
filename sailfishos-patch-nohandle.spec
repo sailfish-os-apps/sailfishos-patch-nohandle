@@ -1,6 +1,6 @@
 Name:          sailfishos-patch-nohandle
 Version:       0.1
-Release:       1
+Release:       2
 Summary:       No handle
 Group:         System/Tools
 Vendor:        fravaccaro
@@ -11,7 +11,7 @@ URL:           www.jollacommunity.it
 License:       GPL
 
 %description
-Removes the handle for the home screen and the launcher.
+Removes the handle from the home screen and the launcher.
 
 %files
 %defattr(-,root,root,-)
